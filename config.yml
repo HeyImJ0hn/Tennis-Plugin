@@ -1,0 +1,7 @@
+Entity:
+   Velocity:
+      Multiply: 1.5
+      setY: 1.2
+   Spawn: 
+      Max: 5
+      hasAi: true
