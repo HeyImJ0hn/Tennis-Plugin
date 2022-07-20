@@ -17,6 +17,7 @@ public class Main extends JavaPlugin {
 
 	public void loadConfig() {
 		getConfig().options().copyDefaults(true);
+		getConfig().options().copyHeader(true);
 		multiply = getConfig().getDouble("Entity.Velocity.Multiply");
 		setY = getConfig().getDouble("Entity.Velocity.setY");
 		max = getConfig().getInt("Entity.Spawn.Max");

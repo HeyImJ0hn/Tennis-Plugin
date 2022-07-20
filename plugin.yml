@@ -1,7 +1,6 @@
 main: me.GuitarXpress.Tennis.Main
 name: Tennis
-version: 1.2.2
-author: GuitarXpress
+version: 1.2.3
 api-version: 1.18
 
 commands:

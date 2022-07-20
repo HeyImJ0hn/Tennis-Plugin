@@ -62,6 +62,7 @@ public class Events implements Listener {
 		if (event.getItem() != null) {
 			if (event.getItem().hasItemMeta()) {
 				if (event.getItem().getItemMeta().equals(ItemManager.killSlimeBall.getItemMeta())) {
+					event.setCancelled(true);
 					Player player = event.getPlayer();
 					if (killSlimes(player)) {
 						player.sendMessage(Commands.prefix() + "§eKilled Slime Tennis Ball");
@@ -80,6 +81,7 @@ public class Events implements Listener {
 			if (event.getItem() != null) {
 				if (event.getItem().hasItemMeta()) {
 					if (event.getItem().getItemMeta().equals(ItemManager.slimeBall.getItemMeta())) {
+						event.setCancelled(true);
 						Player player = event.getPlayer();
 						World locW = event.getClickedBlock().getLocation().getWorld();
 						float locX = event.getClickedBlock().getLocation().getBlockX() + .5f;

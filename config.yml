@@ -1,7 +1,11 @@
 Entity:
-   Velocity:
-      Multiply: 1.5
-      setY: 1.2
+   Velocity: 
+      Multiply: 1.5 # Adjust multiplier
+      setY: 1.2 # Adjust ball height when hit
    Spawn: 
-      Max: 5
-      hasAi: true
+      Max: 5 # Max Slimes per player
+      hasAi: true # Spawn slime with AI or not - No AI stops them from moving.
+      
+      
+      
+      

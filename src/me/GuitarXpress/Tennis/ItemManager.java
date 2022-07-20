@@ -24,7 +24,6 @@ public class ItemManager {
 		ItemStack item = new ItemStack(Material.STICK, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§6Tennis Racket");
-		meta.setCustomModelData(30051);
 		ArrayList<String> lore = new ArrayList<>();
 		lore.add("§7Yes it's just a stick.");
 		lore.add("§6Right Click §7on the ball to use.");
@@ -37,7 +36,6 @@ public class ItemManager {
 		ItemStack item = new ItemStack(Material.SLIME_BALL, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§6Spawn Slime Tennis Ball");
-		meta.setCustomModelData(30052);
 		ArrayList<String> lore = new ArrayList<>();
 		lore.add("§7Right click a block to spawn a Slime Tennis Ball");
 		meta.setLore(lore);
@@ -49,7 +47,6 @@ public class ItemManager {
 		ItemStack item = new ItemStack(Material.BONE, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§6Kill Slime Tennis Ball");
-		meta.setCustomModelData(30053);
 		ArrayList<String> lore = new ArrayList<>();
 		lore.add("§7Right click a block to kill the Slime Tennis Ball");
 		meta.setLore(lore);
@@ -61,7 +58,6 @@ public class ItemManager {
 		ItemStack item = new ItemStack(Material.BONE, 1);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§6Kill Near Slime Tennis Ball");
-		meta.setCustomModelData(30054);
 		ArrayList<String> lore = new ArrayList<>();
 		lore.add("§7Right click a block to kill all the Slime Tennis Ball");
 		meta.setLore(lore);
